@@ -1,0 +1,68 @@
+/* Contact Form Styles */
+#react-app {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+#react-app h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#react-app form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#react-app label {
+    font-weight: 600;
+    color: #444;
+}
+
+#react-app input {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+#react-app button {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#react-app button:hover {
+    background-color: #005f8d;
+}
+
+#react-app p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+#react-app .status {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+
+#react-app .status.error {
+    color: red;
+}
